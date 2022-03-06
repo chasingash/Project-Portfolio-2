@@ -4,11 +4,24 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
+    user-select: none;
 }
 
-
-body {
+html {
     background: pink;
-    font-family: hubballi, sans-serif;
+}
+
+#heading {
+    color: #F2F2F2;
+    text-align: center;
     font-size: 3rem;
+    margin-top: 0px;
+    letter-spacing: 3px;
+    word-spacing: 7px;
+}
+
+#music-control {
+    text-align: right;
+    padding-right: 2em;
 }
