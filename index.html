@@ -12,18 +12,15 @@
 <body>
     <header>
         <div id="head-title">
-            <h2 class="heading">Memory Game</h2>
+            <h2 class="heading">Jungle Memory Game</h2>
         </div>
     </header>
-
-    <div class="game-area">
-        Game area
-    </div>
-
+    
+<!-- Main section to include the game cards -  each card is made up of an image side and a back side with question mark-->
     <div id="game">
 
         <div class="cards" id="card1">
-          <div class="back" id="back1">
+          <div class="back" id="back1" >
             <img src="assets/images/card1.jpg" alt="">
           </div>
           <div class="front" id="front1">?</div>
@@ -121,6 +118,16 @@
         <span>00</span>
         <span>:</span>
         <span>00</span>
+    </div>
+
+    <!-- This section contains the game instructions button and start button -->
+
+    <div id="instructions-button">
+        <button id="start">Instructions</button>
+    </div>
+
+    <div id="start-button">
+        <button id="start">START</button>
     </div>
 
     <script src="assets/js/script.js"></script>
